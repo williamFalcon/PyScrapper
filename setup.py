@@ -8,6 +8,7 @@ setup(name='PyScrapper',
     version='1.0',
     description='Python Scrapping interface',
     author='William Falcon',
+    package_dir={'': 'src'},
     author_email='waf2107@columbia.edu',
     url='https://github.com/williamFalcon/PyScrapper.git',
     install_requires=required
