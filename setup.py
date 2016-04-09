@@ -5,6 +5,7 @@ with open('requirements.txt') as f:
     required = f.read().splitlines()
 
 setup(name='PyScrapper',
+    scripts=['layout.sh'],
     version='1.0',
     description='Python Scrapping interface',
     author='William Falcon',
